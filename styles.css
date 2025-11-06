@@ -1,0 +1,6 @@
+/* src/styles.css - minimal */
+body { font-family: Inter, Arial, sans-serif; background: #f3f6fb; margin: 0; color: #0f172a; }
+input, button { padding: 8px; border-radius: 6px; border: 1px solid #ddd; }
+button { cursor: pointer; background: #0ea5a4; color: #fff; border: none; }
+button[disabled] { opacity: 0.6; cursor: not-allowed; }
+a { color: #0ea5a4; text-decoration: none; }
