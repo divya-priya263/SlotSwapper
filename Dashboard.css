@@ -1,6 +1,23 @@
-/* Container styling */
-.container {
-  max-width: 900px;
+.dashboard-container {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Welcome Section */
+.welcome-section {
+  background: linear-gradient(90deg, #4e54c8, #8f94fb);
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Info Boxes */
+.info-box h2 {
+  font-weight: bold;
+}
+.info-box h5 {
+  opacity: 0.9;
+  font-size: 0.9rem;
 }
 
 /* Calendar background */
@@ -29,6 +46,19 @@
 /* Hover effect */
 .fc-event:hover {
   transform: scale(1.05);
+}
+
+/* Add/Delete Buttons */
+button.btn {
+  transition: 0.2s;
+}
+button.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Carousel */
+.carousel-inner img {
+  border-radius: 10px;
 }
 
 /* Responsive tweaks */
